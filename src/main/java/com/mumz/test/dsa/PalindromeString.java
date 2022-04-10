@@ -5,7 +5,8 @@ import static java.util.Objects.isNull;
 public class PalindromeString {
 
     public static boolean isPalindrome(String s) {
-        if (isNull(s) || s.isBlank()) return false;
+        if (isNull(s)) return false;
+        if (s.isBlank()) return true;
         int left = 0;
         int right = s.length() - 1;
         s = s.toLowerCase();

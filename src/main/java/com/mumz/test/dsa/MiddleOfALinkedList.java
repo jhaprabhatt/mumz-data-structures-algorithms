@@ -48,7 +48,7 @@ public class MiddleOfALinkedList {
 
         public boolean isPalindrome() {
             if (head == null || head.next == null) return true;
-
+            Node middle = middle();
             return true;
         }
     }

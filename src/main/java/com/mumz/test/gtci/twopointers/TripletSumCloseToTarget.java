@@ -4,8 +4,19 @@ import java.util.Arrays;
 
 public class TripletSumCloseToTarget {
 
-    public static int searchTriplet(int[] arr,
-                                    int targetSum) {
+    public static int searchTriplet(
+            int[] arr,
+            int targetSum
+    ) {
+        if (arr == null || arr.length == 0) return 0;
+        Arrays.sort(arr);
+        int maxElementCount = 3;
+        int runningSum = 0;
+        int noOfTriplets = 0;
+        int windowStart = 0;
+        for (int windowEnd = 0; windowEnd < arr.length; windowEnd++) {
+
+        }
         return -1;
     }
 
