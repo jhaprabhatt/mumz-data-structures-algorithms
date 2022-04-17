@@ -1,5 +1,8 @@
 package com.mumz.test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Misc {
 
     static void test(){
@@ -28,5 +31,9 @@ public class Misc {
         System.out.println("================================");*/
 
 //        Thread thread = new Thread()
+
+        StringBuilder stringBuilder = new StringBuilder();
+//        stringBuilder.append(null);
+        System.out.println(stringBuilder.length());
     }
 }
